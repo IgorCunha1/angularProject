@@ -1,0 +1,19 @@
+<h2>Lista de Pessoas</h2>
+<table class="table table-striped">
+  <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Telefone</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor = "let calcme of calcmes" >
+        <td> {{calcme.nome}} </td>
+        <td> {{calcme.email}} </td>
+        <td> {{calcme.telefone}}</td>
+      </tr>
+  </tbody>
+
+</table>
+
