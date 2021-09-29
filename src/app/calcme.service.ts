@@ -8,7 +8,7 @@ import { Calcme } from './calcme';
 })
 export class CalcmeService {
 
-  private baseUrl = "http://localhost:8080/pessoas";
+  private baseUrl = "http://localhost:8080/pessoa";
   constructor(private httpClient: HttpClient) { }
 
   getCalcmeList(): Observable<Calcme[]>{

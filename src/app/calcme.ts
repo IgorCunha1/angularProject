@@ -1,6 +1,6 @@
 export class Calcme {
 
-  id: number;
+  id: string;
   nome: string;
   email: string;
   telefone: string;
